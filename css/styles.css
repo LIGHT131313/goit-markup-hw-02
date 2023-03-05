@@ -24,6 +24,10 @@ body {
     list-style: none;
 }
 
+.hoverfocus:hover,
+.hoverfocus:focus {
+    color: #404BBF;
+}
 /*.title {
 
 }
@@ -41,7 +45,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -51,10 +55,6 @@ body {
 
 .header-logo-item {
     color: #2E2F42;
-}
-
-.footer-logo-item {
-    color: #F4F4FD;
 }
 
 .header {
@@ -216,7 +216,13 @@ body {
     background: #2E2F42;
 }
 
+.footer-logo {
+    line-height: 1.17
+}
 
+.footer-logo-item {
+    color: #F4F4FD;
+}
 
 .footer-text {
     font-size: 16px;
