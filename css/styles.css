@@ -48,9 +48,9 @@ body {
     border-bottom: 1px solid var(--color-cornflower);
 }
 
-.header-address {
+/* .header-address {
     font-style: normal
-}
+}*/
 
 .header-list-link {
     font-style: normal;
@@ -62,7 +62,9 @@ body {
 }
 
 .header-list-link:hover,
-.header-list-link:focus {
+.header-list-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
     color: var(--color-ocean);
 }
 
@@ -198,6 +200,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--color-slate);
 }
 
 /*----------Footer----------*/
